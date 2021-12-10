@@ -1,0 +1,37 @@
+.presentation_container{
+    width: 650px;
+    height: 80vh;
+    background-image: linear-gradient(to bottom, #ffffff33, #b9b9b91f, #77777740, #3b3b3b40, #00000024);
+    background-size: 750px;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    position: relative;
+    margin-top: 5vh;
+    border-radius: 10px;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+.video_style{
+    position: absolute;
+    z-index: 0;
+    -webkit-mask-image: linear-gradient(to top, transparent 20%, black 50%)
+}
+.hero_name{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 55px;
+    font-family: 'PT Serif', serif;
+}
+.img_skill{
+    width: 15%;
+    margin:10px;
+    box-shadow: 10px 14px 44px 10px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 10px 14px 44px 10px rgba(0,0,0,0.54);
+    -moz-box-shadow: 10px 14px 44px 10px rgba(0,0,0,0.54);
+}
+.infoHero{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}

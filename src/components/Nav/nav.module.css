@@ -1,0 +1,30 @@
+.navigation{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_logo{
+    width: 60%;
+}
+.item_element{
+    color:white
+}
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_items{
+    margin-right: 20vw;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    opacity: 50%;
+}
+

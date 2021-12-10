@@ -1,0 +1,33 @@
+.agility_selector{
+    background-color: black;
+    color: green;
+    border: 3px solid green;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+.strong_selector{
+    background-color: black;
+    color: red;
+    border: 3px solid red;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+.intelligence_selector{
+    background-color: black;
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.allHeroes_selector{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
