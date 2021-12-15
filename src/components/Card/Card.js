@@ -19,6 +19,7 @@ const Card=({nombre,atributo,roles,id})=>{
     return(
         <>
                 <img 
+                key={nombre}
                 id={`hero_img_${nombre.toLowerCase()}`}
                 src={`https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/${nombre.replace('npc_dota_hero_','')}.png`}
                 alt={'hero_img_'+ nombre}

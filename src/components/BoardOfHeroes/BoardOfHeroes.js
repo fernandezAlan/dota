@@ -114,7 +114,7 @@ const BoardOfHeroes = ()=>{
                 </div>
                 <div style={{display:'flex'}}>
                     <section className={classes.board}>
-                        {allHeroes ? allHeroes.map(hero=>(<Card nombre ={hero.name} id={hero.id}/>)):<div>Loading..</div>}
+                        {allHeroes ? allHeroes.map(hero=>(<Card key={hero?.name}nombre ={hero.name} id={hero.id}/>)):<div>Loading..</div>}
                     </section>
                 </div>
             </section>
