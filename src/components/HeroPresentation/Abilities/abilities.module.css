@@ -26,18 +26,7 @@
     width: 15%;
     margin:10px;
 }
-.info_skill{
-    display: none;
-    width: 230px;
-    padding: 15px;
-    padding-bottom: 30px;
-    overflow: auto;
-    z-index: 1;
-    clip-path: polygon(0px 0px, 0px calc( 100% - 20px ), calc( 50% - 20px ) calc( 100% - 20px ), 50% 100%, calc( 50% + 20px ) calc( 100% - 20px ), 100% calc( 100% - 20px ), 100% 0px);
-    background: linear-gradient( 
-        177deg, #2b2f34, #000000);
-    border: solid 2px black;
-}
+
 .container_skill_info{
     display: flex;
     flex-direction: column;
@@ -46,46 +35,4 @@
 
 .container_skill_info::-webkit-scrollbar {
     -webkit-appearance: none;
-}
-.tittle_ability{
-    text-align:center;
-    font-size: 15px;
-    letter-spacing: 2px;
-    background-color: rgba(128, 128, 128, 0.267);
-    padding:5px;
-}
-.sub_skill_info{
-    padding: 5px;
-    margin-bottom: 10px;
-    border-bottom: solid 1px #8080807a;
-}
-.skill_label{
-    font-size: 11px;
-    letter-spacing: 1px;
-    color: #737373;
-    max-width: 50%;
-}
-.text_info_skill{
-    color: rgb(221, 221, 221);
-    font-size: 12px;
-    border-bottom: solid 1px #8080807a;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-.special_value{
-    font-size: 12px;
-    letter-spacing: 1px; 
-    font-weight: 600;
-    text-transform: none;
-    margin-left: 5px;
-}
-.center_element{
-    display: flex;
-    align-items: center;
-}
-.mana_icon{
-    width: 16px;
-    height: 16px;
-    border-radius: 3px;
-    background: linear-gradient(#00A4DB, #007196);
 }
